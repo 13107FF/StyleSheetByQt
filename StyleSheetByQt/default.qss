@@ -1,0 +1,151 @@
+
+/*
+QFrame {
+    border-width: 16px;
+    border-image: url(://image/border_shadow_black.png) 16px no-repeat;
+}
+*/
+
+* {
+    font-size: 14px;
+}
+
+#frame_border_left,
+#frame_border_right,
+#frame_border_top,
+#frame_border_bottom,
+#frame_border_topLeft,
+#frame_border_topRight,
+#frame_border_bottomLeft,
+#frame_border_bottomRight,
+#frame_titleBar,
+#frame_central {
+    background: #f7f7f7;
+}
+
+#frame_border_left {
+    border-left: 1px solid #000000;
+}
+#frame_border_right {
+    border-right: 1px solid #000000;
+}
+#frame_border_top {
+    border-top: 1px solid #000000;
+}
+#frame_border_bottom {
+    border-bottom: 1px solid #000000;
+}
+#frame_border_topLeft {
+    border-top: 1px solid #9c9c9c;
+    border-left: 1px solid #9c9c9c;
+}
+#frame_border_topRight {
+    border-top: 1px solid #9c9c9c;
+    border-right: 1px solid #9c9c9c;
+}
+#frame_border_bottomLeft {
+    border-bottom: 1px solid #9c9c9c;
+    border-left: 1px solid #9c9c9c;
+}
+#frame_border_bottomRight {
+    border-bottom: 1px solid #9c9c9c;
+    border-right: 1px solid #9c9c9c;
+}
+
+
+
+
+QLineEdit {
+    border: 1px solid #e7e7e7;
+    border-radius: 3px;
+    padding: 4px;
+    background: #ffffff;
+}
+
+
+QPushButton {
+    background: #3385dd;
+    border: 1px solid #e6e6e6;
+    padding: 6 16 6 16px;
+    border-radius: 3px;
+    color: #f7f7f7;
+}
+QPushButton::hover {
+    background: #3385ff;
+}
+QPushButton::pressed {
+    background: #4496ff;
+}
+
+QToolButton {
+    border: none;
+    border-radius: 3px;
+    padding: 4 12 4 12px;
+    background: transparent;
+}
+QToolButton::hover {
+    background: #a0a0a0;
+}
+QToolButton::pressed {
+
+}
+
+QCheckBox {
+
+}
+
+QRadioBox {
+
+}
+
+QGroupBox {
+
+}
+
+QComboBox {
+    border: 1px solid #CBCDCF;
+    border-radius: 3px;
+    padding: 4px;
+}
+QComboBox::editable {
+    background: #ffffff;
+}
+QComboBox::!editable {
+    background: #f0f0f0;
+}
+QComboBox::drop-down {
+    border: none;
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    background: transparent;
+    width: 32px;
+    border-left: 1px solid #d3d3d3;
+}
+QComboBox::down-arrow {
+    image: url(:/image/combobox_arrow_down.png);
+}
+
+
+QTabWidget {
+    background: red;
+}
+.QWidget {
+    background: #f7f7f7;
+}
+
+QAbstractSpinBox {
+    border: 1px solid #e7e7e7;
+    border-radius: 3px;
+    padding: 4px;
+}
+
+QAbstractScrollArea {
+    border: 1px solid #e7e7e7;
+    border-radius: 3px;
+}
+
+QProgressBar {
+
+}
+
+

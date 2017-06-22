@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>default.qss</file>
+        <file>image/combobox_arrow_down.png</file>
+        <file>image/border_shadow_black.png</file>
+    </qresource>
+</RCC>
